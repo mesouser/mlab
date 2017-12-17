@@ -1,0 +1,192 @@
+/* ===============================
+ BASE STYLES
+ ============================= */
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #contact {
+  height: 600px;
+}
+
+/* ===============================
+ GRID
+ ============================= */
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* ===============================
+ HEADER
+ ============================= */
+header {
+  background: url("../img/full-background.png");
+  background-size: cover;
+  height: 800px;
+}
+
+header h1 {
+  color: #000;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 56px;
+  float: left;
+  padding: 50px 0;
+}
+
+header h2 {
+  clear: both;
+  color: #a1a1a1;
+  font: 62px 'Source Sans Pro', sans-serif;
+  padding: 15px;
+  width: 300px;
+}
+
+header h2 span {
+  color: #e90075;
+
+}
+/* ===============================
+ NAV
+ ============================= */
+nav {
+  clear: both;
+  float: right;
+  margin-top: -200px;
+  padding: 75px 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration:none;
+  font-size: 18px;
+  padding-left: 80px;
+}
+
+
+/* ===============================
+ ABOUT
+ ============================= */
+#about .full-width {
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 36px;
+}
+
+#about p {
+  color: #7f7f7f;
+  font: 21px 'Source Sans Pro', sans-serif;
+  line-height: 42px;
+  padding-right: 50px;
+}
+
+/* ===============================
+ WORK
+ ============================= */
+#work {
+  background-color: #000;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work img {
+  padding-bottom: 30px;
+}
+
+#work h3 {
+  color: #fff;
+  font: bold 24px 'Permanent Marker', cursive;
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 190px;
+}
+
+#work p {
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0 35px;
+}
+
+/* ===============================
+ CONTACT
+ ============================= */
+#contact {
+  background-color: #ebebeb;
+}
+
+#contact-info {
+  text-align: center;
+}
+
+#contact .full-width {
+  padding: 110px 0;
+}
+
+#contact-img {
+  border: 12px dotted #000;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+#envelope {
+  padding: 0 10px 0 115px;
+  margin: -30px 0 5px 0;
+}
+
+#contact h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 32px;
+  color: #000;
+}
+
+#email-header {
+  font: 24px 'Source Sans Pro', sans-serif;
+  margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+  font-family:'Permanent Marker', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 40px 0 0 0;
+}
+
+#contact a {
+  font: bold 28px 'Source Sans Pro', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #e90075;
+}
+ #contact ul img {
+   fill: #e90075;
+   padding-right: 48px;
+ }
