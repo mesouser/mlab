@@ -44,7 +44,7 @@ header {
 }
 
 header h1 {
-  color: yellow;
+  color: #000;
   font-family: 'Permanent Marker', cursive;
   font-size: 56px;
   float: left;
